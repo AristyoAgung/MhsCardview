@@ -32,9 +32,7 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.View
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        //String a = "R.drawable." + dataList.get(position).getFoto();
-        //int b = Integer.parseInt(a);
-        //holder.imgFoto.setImageResource(b);
+        holder.imgFoto.setImageResource(dataList.get(position).getFoto());
         holder.txtNama.setText(dataList.get(position).getNama());
         holder.txtNim.setText(dataList.get(position).getNim());
         holder.txtGender.setText(dataList.get(position).getGender());

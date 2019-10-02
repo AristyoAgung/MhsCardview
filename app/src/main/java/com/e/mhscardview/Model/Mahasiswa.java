@@ -1,7 +1,7 @@
 package com.e.mhscardview.Model;
 
 public class Mahasiswa {
-    private String foto;
+    private int foto;
     private String nama;
     private String nim;
     private String gender;
@@ -9,7 +9,7 @@ public class Mahasiswa {
     private String cita2;
     private String motohidup;
 
-    public Mahasiswa(String foto, String nama, String nim, String gender, String hobi, String cita2, String motohidup) {
+    public Mahasiswa(int foto, String nama, String nim, String gender, String hobi, String cita2, String motohidup) {
         this.foto = foto;
         this.nama = nama;
         this.nim = nim;
@@ -43,11 +43,11 @@ public class Mahasiswa {
         this.gender = gender;
     }
 
-    public String getFoto() {
+    public int getFoto() {
         return foto;
     }
 
-    public void setFoto(String foto) {
+    public void setFoto(int foto) {
         this.foto = foto;
     }
 

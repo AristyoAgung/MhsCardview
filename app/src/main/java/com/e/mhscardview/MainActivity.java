@@ -71,9 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void addData() {
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa("","","","","","",""));
-        mahasiswaArrayList.add(new Mahasiswa("","","","","","",""));
-        mahasiswaArrayList.add(new Mahasiswa("","","","","","",""));
-        mahasiswaArrayList.add(new Mahasiswa("","","","","","",""));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
     }
 }
