@@ -71,9 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void addData() {
         mahasiswaArrayList = new ArrayList<>();
-        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
-        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
-        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
-        mahasiswaArrayList.add(new Mahasiswa(R.drawable.download,"","","","","",""));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.deo,"Alfadeo Bulin","72170106","Laki-Laki","main layangan","pengacara","sing penting yakin"));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.dorra,"Christian Dorra","72170148","Laki-Laki","Makan","Terbang","tetap kuat seperti larry"));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.adrian,"Adrian Paskalis","72170125","Laki-Laki","cukur","Barber","yang penting makan"));
+        mahasiswaArrayList.add(new Mahasiswa(R.drawable.desta,"Desta Siwi Prabawan","72170126","Laki-Laki","olahraga","nikah","beyond limit"));
     }
 }
